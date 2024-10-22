@@ -1,4 +1,4 @@
-#Project Overview
+# Project Overview
 This project focuses on classifying food images through the application of a pre-trained TensorFlow model, allowing users to identify various food categories accurately. Leveraging OpenCV for robust image processing, the system enhances image quality and prepares it for classification tasks. To optimize performance, the project incorporates TensorFlow’s GPU support, enabling faster training and inference when compatible hardware is available. This integration not only improves the efficiency of the model but also enhances user experience by providing quick and reliable predictions for food items based on their images.
 
 # Key Features
