@@ -1,11 +1,17 @@
-# Image Classification Model
-Project Overview
-This project aims to classify food images using a pre-trained TensorFlow model. The project uses OpenCV for image processing and TensorFlow’s GPU support (if available) to speed up the process. The model can predict the category of a food item given an input image.
+#Project Overview
+This project focuses on classifying food images through the application of a pre-trained TensorFlow model, allowing users to identify various food categories accurately. Leveraging OpenCV for robust image processing, the system enhances image quality and prepares it for classification tasks. To optimize performance, the project incorporates TensorFlow’s GPU support, enabling faster training and inference when compatible hardware is available. This integration not only improves the efficiency of the model but also enhances user experience by providing quick and reliable predictions for food items based on their images.
 
-# Features
-Model Loading and Prediction: The project provides a notebook for loading a pre-trained model and making predictions on images.
-Custom Food Image Classifier: Uses a custom Python module food_image_classifier for image processing and classification.
-GPU Acceleration: TensorFlow's GPU capabilities can be leveraged to speed up training and inference.
+# Key Features
+
+## Model Loading and Prediction: 
+The project includes an interactive Jupyter notebook that facilitates the loading of a pre-trained TensorFlow model. Users can seamlessly upload food images and receive instant predictions regarding their categories.
+
+## Custom Food Image Classifier: 
+At the core of the project is a custom Python module, food_image_classifier, designed specifically for image processing and classification. This module streamlines the process of transforming raw image inputs into formatted data that the model can interpret, ensuring accuracy and consistency in predictions.
+
+## GPU Acceleration: 
+By utilizing TensorFlow's built-in GPU capabilities, the project significantly reduces computation time for both model training and inference. This feature allows users with compatible hardware to take advantage of parallel processing, resulting in enhanced speed and efficiency, particularly for large datasets or real-time image classification tasks.
+
 
 # Installation
 
